@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>FORMULARIO DE LA HOJA DE VIDA</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+<form action="formulario.php" method="GET"> 
+<div class="T1">
+              <h1>HOJA DE VIDA</h1>
+              <h5>CURRUCULUM VITAE <b>minerva 10-00</b></h5>
+</div>
+
+<div class="bloque1">
+<div class="a1">      
+             <label form="Ciudad">Ciudad:</label> 
+             <input class="A1" type="text" name="Cuidad" placeholder="Cuidad">
+</div>               
+<div class="a2">       
+             <label for="Fecha">Fecha:</label>   
+             <input class="A1" type="date" name="Fecha" placeholder="Fecha">
+</div>               
+<div class="a3">       
+             <label for="Empleo o cargo solicitado:">Empleo o cargo solicitado:</label>
+             <input class="A1" type="text" name="Empleo o cargo solicitado" placeholder="Empleo o cargo solicitado">
+</div>                
+<div class="a4">     
+             <label for="Codigo o cargo">Codigo o cargo:</label>
+             <input class="A1" type="text" name="Codigo o cargo" placeholder="Codigo o cargo">
+</div></div>
+
+<div class="T2">
+<h2>I.DATOS PERSONALES</h2>
+</div>
+<div class="foto">
+	<span class="text">
+         FOTOGRAFIA RECIENTE
+          </span>      
+        <script >
+                  function archivo(evt) {
+                      var files = evt.target.files; // FileList object
+             
+                        // Obtenemos la imagen del campo "file".
+                      for (var i = 0, f; f = files[i]; i++) {
+                        //Solo admitimos imágenes.
+                      if (!f.type.match('image.*')) {
+                          continue;
+                      }
+             
+                      var reader = new FileReader();
+             
+                      reader.onload = (function(theFile) {
+                        return function(e) {
+                          // Insertamos la imagen
+                         document.getElementById("list").innerHTML  = ['<img class="thumb" src="', e.target.result,'" title="', escape(theFile.name), '"/>'].join(''); 
+                        };
+                      })(f);
+             
+                      reader.readAsDataURL(f);
+                    }
+                  }
+             
+                  document.getElementById('files').addEventListener('change', archivo, false);
+            </script>
+ </div>
+
+<div class="bloque2">
+<div class="b1">
+          <label for="Primer apellido">Primer apellido:</label>
+          <input class="B1" type="text" name="Primer apellido" placeholder="Primer apellido">
+</div>   
+<div class="b2">  
+          <label for="Segundo apellido">Segundo apellido:</label>
+          <input class="B1" type="text" name="Segundo apellido" placeholder="Segundo apellido">
+</div>  
+<div class="b3">  
+          <label for="Nombre">Nombre:</label>           
+          <input class="B1" type="text" name="Nombre" placeholder="Nombre" id="Nombre">
+</div></div> 
+
+
+<div class="bloque3"> 
+<div class="b4"> 
+          <label for="profesion o ocupacion u oficio">profesion o ocupacion u oficio:</label>     
+          <input class="B1" type="text" name="profesion o ocupacion u oficio"placeholder="profesion o ocupacion u oficio">
+</div>     
+<div class="b5">    
+             <label for="Años de experecia laboral">Años de experecia laboral:</label>    <input class="B1" type="number" name="Años de experecia laboral" placeholder="años de experecia laboral">
+</div>   
+<div class="b6">  
+             <label for="Cuanto es su aspiracion salarial">Cuanto es su aspiracion salarial:</label>          
+             <input  class="B1" type="number" name="Cuanto es su aspiracion salarial" placeholder="Cuanto es su aspiracion salarial">
+</div></div>
+
+
+<div class="bloque4"> 
+<div class="b7"> 
+              <label for="Lugar de nacimientolugar de nacimiento">Lugar de nacimiento:</label>          
+             <input class="B1"  type="text" name="Lugar de nacimiento" placeholder="Lugar de nacimiento">
+</div>              
+<div class="b8"             
+             <label for="Fecha nacimiento">Fecha nacimiento:</label>
+             <input class="B1"  type="date" name="Fecha nacimiento">
+</div>             
+<div class="b9"> 
+             <label for="Estado civil">Estado civil:</label>   
+            <input class="B1" type="text" name="Estado civil" placeholder="Estado civil">
+</div></div>
+
+
+<div class="bloque5">               
+<div class="b10">
+              <label for="Direccion domicilio">Direccion domicilio:</label>   
+              <input class="B1"  type="text" name="Direccion domicilio" placeholder="Direccion domicilio">
+</div>             
+<div class="b11">  
+            <label for="Barrio">Barrio:</label>           
+             <input class="B1"  type="text" name="Barrio" placeholder="Barrio">
+</div>             
+<div class="b12">
+             <label for="Telefono">Telefono:</label>             
+             <input class="B1"  type="number" name="Telefono" placeholder="Telefono">
+</div></div>
+
+
+<div class="bloque6">        
+<div class="b13">
+            <label form="Cedula de cuidadania  n°:">Cedula de cuidadania  n°:</label>
+            <input  class="ab1" type="number" name="Cedula de cuidadania  n°:" placeholder="Cedula de cuidadania  n°:"><hr>
+            Expedidad en:<input class="ab1" type="text" name="Expedidad en:" placeholder="Expedidad en:">
+</div>
+<div class="b14">
+           <label form="Libreta militar  n°:">Libreta militar  n°:</label>
+           <input class="ab2" type="number" name="Libreta militar  n°:" placeholder="Libreta militar  n°:"><hr>
+           Distrito n° :<input class="ab2" type="text" name="Distrito n°:" placeholder="Distrito n°:">
+           primera clase:<input type="checkbox" name="Primera clase:" id="Primera clase:">
+           segunda clase:<input type="checkbox" name="Segunda clase" id="Segunda clase:">
+            
+</div></div>
+
+
+<div class="bloque7">     
+<div class="b15">
+             <label for="licencia de conduccion">licencia de conduccion:</label>   
+             <input class="B6" type="text" name="licencia de conduccion" placeholder="licencia de conduccion">
+</div>
+<div class="b16">                                
+             <label for="¿vivienda propia?">¿vivienda propia?</label>
+             si:<input type="checkbox" name="si" id="si">
+             no:<input type="checkbox" name="no" id="no">
+</div>
+<div class="b17">             
+             <label for="nombre del arrendador">nombre del arrendador:</label>
+             <input class="B6" type="text" name="nombre del arrendador" placeholder="nombre del  arrendador">
+</div>             
+<div class="b18">             
+             <label for="telefono">telefono:</label>
+             <input class="B6" type="number" name="telefono" placeholder="telefono"> 
+</div>              
+<div class="b19">             
+             <label for="valor del arriendo">valor del arriendo:</label>
+             <input class="B6" type="number" name="valor del arriendo" placeholder="valor del arriendo">
+</div></div>
+
+
+<div class="bloque8"> 
+<div class="b20">
+             <label for="¿estas trabajando actualmente?">¿estas trabajando actualmente?</label>
+             si:<input type="checkbox" name="si" id="si">
+             no:<input type="checkbox" name="no" id="no">
+</div>
+            
+<div class="b21">
+             <label for="¿en que empresa?:">¿en que empresa?:</label>
+             empleado:<input type="checkbox" name="si" id="si">
+             independiente:<input type="checkbox" name="no" id="no"><br>
+             <input class="B7" type="text" name=" empresa" placeholder="empresa">
+</div>
+<div class="b22"> 
+              <label for="tipo de contrato">tipo de contrato:</label>           
+              <input class="B7" type="text" name="tipo de contrato" placeholder="tipo de contrato">
+</div></div>
+
+
+<div class="T2">
+<h2>II.EDUCACION Y APTITUDES</h2>
+</div>
+
+         <div class="cb1">Primaria:</div>
+<div class="bloque9">
+          <div class="c1">           
+          <label for="establecimiento">establecimiento:</label>
+          <input class="CA1" type="text" name="establecimiento" placeholder="establecimiento">
+</div> 
+<div class="c2">            
+           <label for="cuidad">cuidad:</label>
+           <input class="CA1" type="text" name="cuidad" placeholder="cuidad"">
+</div> 
+<div class="c3">             
+           <label for="ultimo grado cursado">ultimo grado cursado:</label>
+           <input class="CA1" type="text" name="ultimo grado cursado" placeholder="ultimo grado cursado">
+</div>
+<div class="c4">    
+           <label for="fecha">fecha:</label>
+           <input class="CA1" type="date" name="fecha" placeholder="fecha">
+</div></div>
+
+
+         <div class="cb1">bachillerato:</div>
+<div class="bloque10">
+<div class="c5">           
+          <label for="establecimiento">establecimiento:</label>
+          <input class="CA1" type="text" name="establecimiento" placeholder="establecimiento">
+</div> 
+<div class="c5">            
+           <label for="cuidad">cuidad:</label>
+           <input class="CA1" type="text" name="cuidad" placeholder="cuidad"">
+</div> 
+<div class="c6">             
+           <label for="ultimo grado cursado">ultimo grado cursado:</label>
+           <input class="CA1" type="text" name="ultimo grado cursado" placeholder="ultimo grado cursado">
+</div>
+<div class="c7">    
+           <label for="fecha">fecha:</label>
+           <input class="CA1" type="date" name="fecha" placeholder="fecha">
+</div></div>
+
+<div class="cb2">Educacion Superior:</div>
+<div class="bloque11">           
+          
+<div class="c8">           
+          <label for="establecimiento">establecimiento:</label>
+          <input class="CA1" type="text" name="establecimiento" placeholder="establecimiento">
+</div> 
+<div class="c9">            
+           <label for="cuidad">cuidad:</label>
+           <input class="CA1" type="text" name="cuidad" placeholder="cuidad"">
+</div> 
+<div class="c10">             
+           <label for="ultimo grado cursado">ultimo grado cursado:</label>
+           <input class="CA1" type="text" name="ultimo grado cursado" placeholder="ultimo grado cursado">
+</div>
+<div class="c11">    
+           <label for="fecha">fecha:</label>
+           <input class="CA1" type="date" name="fecha" placeholder="fecha">
+</div></div> 
+
+
+<div class="bloque12">
+<div class="c12">   
+            <label for="titulo obtenido  y/o especialidad ">titulo obtenido  y/o especialidad:</label>          
+           <input class="CA1"  type="text" name="titulo obtenido  y/o especialidad " placeholder="titulo obtenido  y/o especialidad">
+</div>            
+<div class="c13">          
+<label form="tipo de formacion:" >tipo de formacion:</label>
+           <input type="checkbox" name="tecnica" id="tecnica">tecnica
+           <input type="checkbox" name="tecnologica" id="tecnologica">tecnologica
+           <input type="checkbox" name="profesional" id="profesional">profesional
+</div></div>
+<div class="bloque13">
+<div class="c14">
+            <label for="Que estudios realiza actualmente">Que estudios realiza actualmente:</label>
+            <input class="CA1"  type="text" name="Que estudios realiza actualmente" placeholder="Que estudios realiza actualmente">
+</div>           
+<div class="c15">
+            <label for="horario">horario:</label>
+            <input class="CA1"  type="time" name="horario" placeholder="horario">
+ </div></div>           
+
+<div class="T2">
+<h2>III.EXPERIENCIA LABORAL</h2>
+</div>
+
+
+<div class="bloque14"> 
+<div class="d1"> 
+            <label for="nombre de la ultima o actual empresa">nombre de la ultima o actual empresa:</label>  
+            <input class="d1"  type="text" name="nombre de la ultima o actual empresa" placeholder="nombre de la ultima o actual empresa">
+</div>
+<div class="d2">  
+            <label for="direccion">direccion:</label>            
+            <input class="d1"  type="text" name="direccion" placeholder="direccion">
+</div>            
+<div class="d3"> 
+            <label for="telefono">telefono:</label>   
+            <input class="d1"  type="number" name="telefono" placeholder="telefono"> 
+</div></div>
+<div class="bloque15">              
+<div class="d4">  
+            <label for="nombre de su jefe inmediato">nombre de su jefe inmediato:</label>   
+            <input class="d1"  type="text" name="nombre de su jefe inmediato" placeholder="nombre de su jefe inmediato"> 
+</div>           
+<div class="d5"> 
+            <label for="cargo(s) desmpeñado(s) por usted">cargo(s) desmpeñado(s) por usted:</label>        
+            <input class="d1" type="text" name="cargo(s) desmpeñado(s) por usted" placeholder="cargo(s) desmpeñado(s) por usted">
+</div></div>
+
+<div class="bloque16">
+<div class="d6">
+            <label for="funciones realizadas">funciones realizadas:</label>   
+            <input class="d1" type="text" name="funciones realizadas" placeholder="funciones realizadas">
+</div></div>
+<div class="bloque17">
+<div class="d7">
+          <label for="fecha de ingreso:">fecha de ingreso:</label> 
+          <input class="d1" type="date" name="fecha de ingreso">
+</div>        
+<div class="d8">  
+          <label for="fecha de retiro:">fecha de retiro:</label>         
+          <input class="d1" type="date" name="fecha de retiro">
+</div>          
+<div class="d9"> 
+            <label for="sueldo incial">sueldo incial:</label>          
+            <input class="d1" type="number" name="sueldo incial" placeholder="sueldo incial">
+</div>           
+<div class="d10"> 
+            <label for="sueldo final o actual">sueldo final o actual:</label>    <input class="d1" type="number" name="sueldo final o actual" placeholder="sueldo final o actual">
+</div></div>
+<div class="bloque18">
+<div class="d11">
+            <label for="motivo del retiro">motivo del retiro</label>
+            <input class="d1" type="text" name="motivo del retiro" placeholder="motivo del retiro">
+</div></div>  
+
+
+<div class="T3">
+<h4>Verificacion(Espacio exclusivo para el entrevistador)</h4>
+</div> 
+
+<div class="bloque14"> 
+<div class="d1"> 
+            <label for="nombre de la ultima o actual empresa">nombre de la empresa:</label>  
+            <input class="d1" type="text" name="nombre de la ultima o actual empresa" placeholder="nombre de la ultima o actual empresa">
+</div>
+<div class="d2">  
+            <label for="direccion">direccion:</label>            
+            <input class="d1" type="text" name="direccion" placeholder="direccion">
+</div>            
+<div class="d3"> 
+            <label for="telefono">telefono:</label>   
+            <input class="d1" type="text" name="telefono" placeholder="telefono"> 
+</div></div>
+<div class="bloque15">              
+<div class="d4">  
+            <label for="nombre de su jefe inmediato">nombre de su jefe inmediato:</label>   
+            <input class="d1" type="text" name="nombre de su jefe inmediato" placeholder="nombre de su jefe inmediato"> 
+</div>           
+<div class="d5"> 
+            <label for="cargo(s) desmpeñado(s) por usted">cargo(s) desmpeñado(s) por usted:</label>        
+            <input class="d1" type="text" name="cargo(s) desmpeñado(s) por usted" placeholder="cargo(s) desmpeñado(s) por usted">
+</div></div>
+<div class="bloque16">
+<div class="d6">
+            <label for="funciones realizadas">funciones realizadas:</label>   
+            <input class="d1" type="text" name="funciones realizadas" placeholder="funciones realizadas">
+</div></div>
+<div class="bloque17">
+<div class="d7">
+          <label for="fecha de ingreso:">fecha de ingreso:</label> 
+          <input class="d1" type="date" name="fecha de ingreso">
+</div>        
+<div class="d8">  
+          <label for="fecha de retiro:">fecha de retiro:</label>         
+          <input class="d1" type="date" name="fecha de retiro">
+</div>          
+<div class="d9"> 
+            <label for="sueldo incial">sueldo incial:</label>          
+            <input class="d1" type="number" name="sueldo incial" placeholder="sueldo incial">
+</div>           
+<div class="d10"> 
+            <label for="sueldo final o actual">sueldo final o actual:</label>    
+            <input class="d1" type="number" name="sueldo final o actual" placeholder="sueldo final o actual">
+</div></div>
+<div class="bloque18">
+<div class="d11">
+            <label for="motivo del retiro">motivo del retiro:</label>
+            <input class="d2" type="text" name="motivo del retiro" placeholder="motivo del retiro">
+</div></div>                      
+              
+<div class="T3">
+<h4>Verificacion(Espacio exclusivo para el entrevistador)</h4>
+</div>
+
+
+<div class="T4">
+<h2>IV.TRAYECTORIA POR EMPRESAS
+(Marquer con una (X) en que clase de empresa ha trabajado o tiene experiencia)</h2></div>
+
+<div class="bloque191">           
+<div class="e1">
+  <input type="checkbox" name="Agricultura" id="lca">
+  <label for="lca"><b>AGRICULTURA</b></label><br>
+  <input type="checkbox" name="Ganaderia" id="lca">
+  <label for="lca"><b>GANADERIA/ AVICULTURA</b></label><br>
+  <input type="checkbox" name="mineria" id="lca">
+  <label for="lca"><b>MINERIA</b></label><br>
+  <input type="checkbox" name="gasolina" id="lca">
+  <label for="lca"><b>PETROLEO/GASOLINA</b></label><br>
+  <input type="checkbox" name="INDUSTRIA" id="lca">
+  <label for="lca"><b>INDUSTRIA</b></label><br>
+  <input type="checkbox" name="Alimentos" id="lca">
+  <label for="lca">Alimentos y Bebidas</label><br>
+  <input type="checkbox" name="Tabaco" id="lca">
+  <label for="lca">Tabaco</label><br>
+</div>
+
+<div class="e1">
+  <input type="checkbox" name="textiles y Gontencciones" id="lca">
+  <label for="lca">textiles y Gontencciones</label><br>
+  <input type="checkbox" name="Cuero y calzado" id="lca">
+  <label for="lca"><b>Cuero y calzado</b></label><br>
+  <input type="checkbox" name="papel y Carton" id="lca">
+  <label for="lca">papel y Carton</label><br>
+   <input type="checkbox" name="Artes y graficas" id="lca">
+  <label for="lca">Artes graficas</label><br>
+   <input type="checkbox" name="Farmaceutico" id="lca">
+  <label for="lca">Farmaceutico</label><br>
+   <input type="checkbox" name="Caucho y Plastico" id="lca">
+  <label for="lca">Caucho y Plastico</label><br>
+   <input type="checkbox" name="Vidrio, Ceramica y Cemento" id="lca">
+  <label for="lca">Vidrio,Ceramica y Cemento</label><br>
+</div>
+
+<div class="e1">
+  <input type="checkbox" name="Metalurgia" id="lca">
+  <label for="lca">Metalurgia</label><br>
+  <input type="checkbox" name="Maquinaria" id="lca">
+  <label for="lca">Maquinaria</label><br>
+  <input type="checkbox" name="Automotores" id="lca">
+  <label for="lca">Automotores</label><br>
+  <input type="checkbox" name="Muebles" id="lca">
+  <label for="lca">Muebles</label><br>
+  <input type="checkbox" name="Reciclaje" id="lca">
+  <label for="lca">Reciclaje</label><br>
+  <input type="checkbox" name="Electricidad" id="lca">
+  <label for="lca"><b>Electricidad/Gas/Agua</b></label><br>
+  <input type="checkbox" name="Construccion" id="lca">
+  <label for="lca"><b>Construccion</b></label><br>
+</div>
+
+<div class="e1">
+  <input type="checkbox" name="Comercio" id="lca">
+  <label for="lca"><b>Comerio</b></label><br>
+  <input type="checkbox" name="Hoteles y Restaurantes" id="lca">
+  <label for="lca"><b>Hoteles y Restaurantes</b></label><br>
+  <input type="checkbox" name="Transporte" id="lca">
+  <label for="lca"><b>Transprote</b></label><br>
+  <input type="checkbox" name="Bodegaje" id="lca">
+  <label for="lca"><b>Bodegaje</b></label><br>
+  <input type="checkbox" name="Comunicaciones" id="lca">
+  <label for="lca"><b>Comunicaciones</b></label><br>
+  <input type="checkbox" name="Finca Raiz" id="lca">
+  <label for="lca"><b>Finca Raiz</b></label><br>
+  <input type="checkbox" name="Informatico" id="lca">
+  <label for="lca"><b>Informatico</b></label><br>
+</div>
+
+<div class="e1">
+  <input type="checkbox" name="Salud" id="lca">
+  <label for="lca"><b>Salud</b></label><br>
+  <input type="checkbox" name="Educacion" id="lca">
+  <label for="lca"><b>Educacion</b></label><br>
+  <input type="checkbox" name="Seguros" id="lca">
+  <label for="lca"><b>Seguros</b></label><br>
+  <input type="checkbox" name="Vigilancia" id="lca">
+  <label for="lca"><b>Vigilancia</b></label><br>
+  <input type="checkbox" name="otros" id="lca">
+  <label for="lca"><b>otros</b></label><br>
+  <input type="checkbox" name="" id="lca">
+  <input type="text" name="" id="lca">
+  <label for="lca"><b></b></label><br>
+  <input type="checkbox" name="" id="lca">
+  <input type="text" name="" id="lca">
+  <label for="lca"><b></b></label><br>
+</div></div>  
+
+
+<div class="T2">
+<h2>V.INFORMACION FAMILIAR</h2>
+</div>
+
+<div class="bloque19">
+<div class="f1">
+<label for="nombre esposa(o) o compañera(o)">nombre esposa(o) o compañera(o):</label>
+<input class="f1" type="text" name="nombre esposa(o) o compañera(o)" placeholder="nombre esposa(o) o compañera(o)">
+</div>
+<div class="f2">
+<label for="prefesion,ocupacion´u oficio">prefesion,ocupacion´u oficio:</label>
+<input class="f1" type="text" name="prefesion,ocupacion´u oficio" placeholder="prefesion,ocupacion´u oficio">
+</div>
+<div class="f3">
+<label for="empresa donde trabaja">empresa donde trabaja:</label>
+<input class="f1" type="text" name="empresa donde trabaja" placeholder="empresa donde trabaja">
+</div></div>
+
+<div class="bloque20">
+<div class="f4">
+<label for="cargo actual">cargo actual:</label>
+<input class="f1" type="text" name="cargo actual" placeholder="cargo actual">
+</div>
+<div class="f5">
+<label for="direccion">direccion:</label>
+<input class="f1" type="text" name="direccion" placeholder="direccion">
+</div>
+<div class="f6">
+<label for="telefono">telefono:</label>
+<input class="f1" type="text" name="telefono" placeholder="telefono">
+</div>
+<div class="f7">
+<label for="cuidad">cuidad:</label>
+<input class="f1" type="text" name="cuidad" placeholder="cuidad">
+</div></div>
+
+<div class="bloque21">
+<div class="f8">
+<label for="N numero personas que dependen econimicamente del solicitante">N numero personas que dependen econimicamente del solicitante:</label>
+<input class="fa1" type="number" name="N numero personas que dependen econimicamente del solicitante" placeholder="">
+</div>
+<div class="f9"> 
+<label for="parentesco">parentesco:</label>
+<input class="f1" type="text" name="parentesco" placeholder="parentesco">
+</div>
+<div class="f10">
+<label for="edades">edades:</label>
+<input class="f1" type="number" name="edades" placeholder="edades">
+</div></div>
+
+<div class="bloque22">
+<div class="f11">
+<label for="nombre(s) padres(s)">nombre(s) padres(s):</label>
+<input class="f1" type="text" name="nombre(s) padres(s)" placeholder="nombre(s) padres(s)">
+</div>
+<div class="f12">
+<label for="prefesion,ocupacion u oficio">prefesion,ocupacion u oficio:</label>
+<input class="f1" type="text" name="prefesion,ocupacion u oficio" placeholder="prefesion,ocupacion u oficio">
+</div>
+<div class="f13">
+<label for="nombre(s) padres(s)">"nombre(s) padres(s)":</label>
+<input class="f1" type="text" name="nombre(s) padres(s)" placeholder="nombre(s) padres(s)">
+</div>
+<div class="f14">
+<label for="prefesion,ocupacion u oficio">prefesion,ocupacion u oficio</label>
+<input class="f1" type="telefono" name="prefesion,ocupacion u oficio" placeholder="prefesion,ocupacion u oficio">
+</div></div>
+
+
+
+<div class="T2">                    
+<h2>VI.REFERENCIAS PERSONALES(indique dos nombres de personas distintas a familiares o empleadores)</h2></div>
+
+<div class="ga1">1.-</div>
+<div class="bloque23">
+            <div class="g1"> 
+            <label for="nombre">nombre:</label>          
+            <input class="f1" type="text" name="nombre" placeholder="nombre">
+</div>            
+               
+            <div class="g2">
+            <label for="ocupacion">ocupacion:</label>
+            <input class="f1" type="text" name="ocupacion" placeholder="ocupacion">
+</div>             
+            <div class="g3">
+            <label for="direccion">direccion:</label> 
+            <input class="f1" type="text" name="direccion" placeholder="direccion">
+</div>            
+             
+            <div class="g4"> 
+            <label for="telefono">telefono:</label> 
+            <input class="f1" type="text" name="telefono" placeholder="telefono">
+</div></div> 
+
+<div class="ga1">2.-</div>
+<div class="bloque24">  
+            <div class="g5"> 
+            <label for="nombre">nombre:</label>          
+            <input class="f1" type="text" name="nombre" placeholder="nombre">
+</div>            
+               
+            <div class="g6">
+            <label for="ocupacion">ocupacion:</label>
+            <input class="f1" type="text" name="ocupacion" placeholder="ocupacion">
+</div>             
+            <div class="g7">
+            <label for="direccion">direccion:</label> 
+            <input class="f1" type="text" name="direccion" placeholder="direccion">
+</div>            
+             
+            <div class="g8"> 
+            <label for="telefono">telefono:</label> 
+            <input class="f1" type="text" name="telefono" placeholder="telefono">
+</div></div>
+         
+
+<div class="T2">                    
+<h2>VII.INFORMACION ADICIONAL</h2>
+</div>
+
+<div class="bloque25">
+<div class="i1">
+<label  for="Quien sugirio solicitar empleo en esta empresa:">Quien sugirio solicitar empleo en esta empresa:</label>
+<label for="anuncio">anuncio:</label>
+<input type="checkbox" name="anuncio">
+<label for="amigo">amigo:</label>
+<input type="checkbox" name="amigo">
+<label for="agencia">agencia:</label>
+<input type="checkbox" name="agencia">
+<label for="otro">otro:</label>
+<input type="checkbox" name="otro">
+<input class="ib1" type="text" name="Quien sugirio solicitar empleo en esta empresa" placeholder="Quien sugirio solicitar empleo en esta empresa">
+</div>
+<div class="i2">
+<label  for="Lo recomienda alguien que trabaje en esta empresa:">Lo recomienda alguien que trabaje en esta empresa:</label>
+<label for="si">si:</label>
+<input type="checkbox" name="si">
+<label for="nombre">no:</label>
+<input type="checkbox" name="no">
+<input class="ib1" type="text" name="Lo recomienda alguien que trabaje en esta empresa:" placeholder="Lo recomienda alguien que trabaje en esta empresa:">
+</div></div>
+
+<div class="bloque26">
+<div class="i3">
+<label for="si tiene parientes en esta empresa mencionelos">si tiene parientes en esta empresa mencionelos:</label>
+<input class="f1" type="text" name="si tiene parientes en esta empresa mencionelos" placeholder="si tiene parientes en esta empresa mencionelos">
+</div>
+<div class="i4">
+<label for="division o departamentos">division o departamentos:</label>
+<input class="f1" type="text" name="division o departamentos" placeholder="division o departamentos">
+</div></div>
+
+<div class="bloque27">
+<div class="i5">
+<label for="si tienes parientes en esta empresa mencionelos">si tienes parientes en esta empresa mencionelos:</label>
+<input class="f1" type="text" name="si tienes parientes en esta empresa mencionelos" placeholder="si tienes parientes en esta empresa mencionelos">
+</div></div>
+                       
+<br>
+
+<div class="bloque28">
+<header  class="j1">
+<b>nota importante</b>
+<center>favor no llamar por telefono,ni concurrir a
+preguntar por el resultado de esta solicitud
+nostros le avisaremos,gracias.</center></header>
+
+<header class="j2">
+<b>certificacion</b>
+<center> para todos los efectos leagales,certifico que
+todas las repuestas e informaciones anotadas
+por mi, en la presente hoja de vida son veraces
+(C.ST.,Art.62 num 1)regimen laboral
+colombiano & 1057(Legis).</center></header>
+
+
+<div class="j3">
+<label form="firma del solicitante:">firma del solicitante:</label>
+<input  class="j1" type="text" name=" firma del solicitante" placeholder="firma del solicitante"><hr>
+<label for="C.C.">C.C.:</label>
+<input class="j2" type="number" name="C.C.:" placeholder="C.C.">
+</div></div>
+
+<div class="T2">
+<h2>VIII.ADMINISTRACION DE PROCESO DE SELECION (Espacio exclusivo para el empleador)</h2>
+</div>
+
+
+<div class="bloque29">
+<div class="I1">
+<label form="Concepto primer entrevsitador">Concepto primer entrevsitador:</label>
+<input class="IA1" type="text" name="Concepto primer entrevsitador:" placeholder="Concepto primer entrevsitador:">
+</div></div>
+
+<div class="bloque29">
+<div class="I1">
+<label form="Concepto primer entrevsitador"></label>
+<input class="IA3" type="text" name="" placeholder=" ">
+</div></div>
+
+
+<div class="bloque30">
+<div class="I2">
+<label form=" "></label>
+<input class="IA1" type="text" name="" placeholder="">
+</div>
+<div class="I3">
+<label form="Vo. Bo como candidato Firma:">Vo. Bo como candidato Firma:</label>
+<input class="IA1" type="text" name="Vo. Bo como candidato Firma:" placeholder="Vo. Bo como candidato Firma:">
+</div>
+<div class="I3">
+<label form="Fecha">Fecha:</label>
+<input class="IA1" type="date" name="Fecha:" placeholder="Fecha:">
+</div></div>
+
+<div class="bloque29">
+<div class="I1">
+<label form="Concepto primer entrevsitador">Concepto primer entrevsitador:</label>
+<input class="IA1" type="text" name="Concepto primer entrevsitador:" placeholder="Concepto primer entrevsitador:">
+</div></div>
+
+<div class="bloque29">
+<div class="I1">
+<label form="Concepto primer entrevsitador"></label>
+<input class="IA1" type="text" name="" placeholder=" ">
+</div></div>
+
+<div class="bloque30">
+<div class="I2">
+<label form=" "></label>
+<input class="IA1" type="text" name="" placeholder="">
+</div>
+<div class="I3">
+<label form="Vo. Bo como candidato Firma:">Vo. Bo como candidato Firma:</label>
+<input class="IA1" type="text" name="Vo. Bo como candidato Firma:" placeholder="Vo. Bo como candidato Firma:">
+</div>
+<div class="I3">
+<label form="Fecha">Fecha:</label>
+<input class="IA1" type="date" name="Fecha:" placeholder="Fecha:">
+</div></div>
+
+<div class="bloque31">
+<div class="I4">
+<label for="Conclusiones:">Conclusiones:</label>
+<input class="IA1" type="text" name="Conclusiones:" placeholder="Conclusiones:">
+</div></div>
+
+<div class="bloque32">
+<div class="I5">
+<label for=" "></label>
+<input class="IA1" type="text" name="" placeholder="">
+</div>
+
+<div class="I6">
+<label for="Fecha">Fecha:</label>
+<input class="IA1" type="date" name="Fecha" placeholder="Fecha:">
+</div></div>
+
+<div class="bloque33">
+<div class="I7">
+Candidato seleccionado definitivamente: <label for="SI">SI:</label>
+<input type="checkbox" name="SI">
+<label for="NO ">NO:</label>
+<input type="checkbox" name="NO">
+<br>
+<br>
+Candidato elegible proximamente: <label for="SI">SI:</label>
+<input type="checkbox" name="SI" placeholder="">
+<label for="NO ">NO:</label>
+<input type="checkbox" name="NO">
+</div></div>
+
+<div class="bloque34">
+<div class="I8">
+<label for="Contratese a partir del">Contratese a partir del:</label>
+<input class="IA1" type="text" name="Contratese a partir del" placeholder="Contratese a partir del:">
+</div>
+<div class="I8">
+<label for="Sueldo:">Sueldo:</label>
+<input class="IA1" type="number" name="Sueldo" placeholder="Sueldo">
+</div></div>
+
+<div class="bloque34">
+<div class="I8">
+<label for="Cargo ">Cargo:</label>
+<input class="IA1" type="text" name="Cargo" placeholder="Cargo">
+</div>
+
+<div class="I8">
+<label for="Tipo de contrato:">Tipo de contrato:</label>
+<input class="IA1" type="text" name="Tipo de contrato" placeholder="Tipo de contrato:">
+</div></div>
+
+<div class="bloque35">
+<div class="I9">
+<label form="Referencias verificadas por">Referencias verificadas por:</label>
+<input class="IA2" type="text" name="Referencias verificadas por" placeholder="Referencias verificadas por:">
+</div>
+<div class="I9">
+<label for="Primer entrevistador">Primer entrevistador:</label>
+<input class="IA2" type="text" name="Primer entrevistador" placeholder="Primer entrevistador">
+</div>
+<div class="I9">
+<label form="Segundo entrevistador">Segundo entrevistador:</label>
+<input class="IA2" type="text" name="Segundo entrevistador" placeholder="Segundo entrevistador">
+</div>
+<div class="I9">
+<label form="Firma de quien autoriza contratacion">Firma de quien autoriza contratacion:</label>
+<input class="IA2" type="text" name="Firma de quien autoriza contratacion" placeholder="Firma de quien autoriza contratacion:">
+</div></div>
+
+<br>
+<input class="Boton" type="submit" name="ENVIAR">
+
+</form>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,1176 @@
+div.T1{
+         margin: 3px;
+	      border: 1px solid black;
+         border-radius:6px;
+         width: 15%;
+         background:#3393FF;
+         text-align:center; 
+         margin-left:75.4%;
+}
+div.bloque1{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+.A1{
+         width: 96%;
+         height:28px;
+         font-size:20px; 
+}         
+div.a1 {
+         display: inline-block;
+         border: 1px solid black;
+         width: 25%;
+         height:63px;
+         font-size:20px; 
+}
+div.a2{
+         display: inline-block;
+         border: 1px solid black;
+         width: 13%;
+         height:63px;
+         font-size:20px;
+}
+div.a3{
+         display: inline-block;
+         border: 1px solid black;
+         width: 30%;
+         height:63px;
+         font-size:20px;
+}
+div.a4{
+         display: inline-block;
+         border: 1px solid black;
+         width: 32%;
+         height:63px;
+         font-size:20px;
+}
+div.T2 h2{
+         margin: 3px;
+         border: 2px solid black;
+         border-radius:4px;
+         width: 90%;
+         height: 40px;
+         text-align: center;
+         font-size:25px;
+         background: #3393FF;
+}
+div.foto{
+         display:flex;
+         float: right;
+		   border: 2px solid black;
+         border-radius:4px;
+         margin-right: 150px;
+         width: 20%;
+         height: 355px;
+         font-size:25px; 
+
+}
+div.bloque2{
+         display: flex;
+         border: 1px solid black;
+         width: 70%;
+         height:65px;
+}
+.B1{
+         width: 90%;
+         height:30px;
+         font-size:20px;
+}
+div.b1{
+         display: inline-block;
+         border: 1px solid black;
+         width: 30%;
+         height: 63px;
+         text-align: left;
+         font-size:20px;
+}
+div.b2{
+         display: inline-block;
+         border: 1px solid black;
+         width: 30%;
+         height: 63px;
+         text-align: left;
+         font-size:20px;
+}           
+div.b3{
+         display: inline-block;
+         border: 1px solid black;
+         width: 40%;
+         height: 63px;
+         text-align: left;
+         font-size:20px; 
+}
+div.bloque3{
+         display: flex;
+         border: 1px solid black;
+         width: 70%;
+         height:65px;
+}
+div.b4{
+         display: inline-block;
+         border: 1px solid black;
+         width: 40%;
+         height: 63px;
+         text-align: left;
+         font-size:20px;
+}
+div.b5{
+         display: inline-block;
+         border: 1px solid black;
+         width: 25%;
+         height: 63px;
+         text-align: left;
+         font-size:20px;
+}           
+div.b6{
+         display: inline-block;
+         border: 1px solid black;
+         width: 35%;
+         height: 63px;
+         text-align: left;
+         font-size:20px; 
+}
+div.bloque4{
+         display: flex;
+         border: 1px solid black;
+         width: 70%;
+         height:65px;
+}
+div.b7{
+         display: inline-block;
+         border: 1px solid black;
+         width: 45%;
+         height: 63px;
+         text-align: left;
+         font-size:20px;
+}
+div.b8{
+         display: inline-block;
+         border: 1px solid black;
+         width: 20%;
+         height: 63px;
+         text-align: left;
+         font-size:20px;
+}           
+div.b9{
+         display: inline-block;
+         border: 1px solid black;
+         width: 35%;
+         height: 63px;
+         text-align: left;
+         font-size:20px; 
+}
+div.bloque5{
+         display: flex;
+         border: 1px solid black;
+         width: 70%;
+         height:65px;
+}
+div.b10{
+         display: inline-block;
+         border: 1px solid black;
+         width: 45%;
+         height: 63px;
+         text-align: left;
+         font-size:20px;
+}
+div.b11{
+         display: inline-block;
+         border: 1px solid black;
+         width: 30%;
+         height: 63px;
+         text-align: left;
+         font-size:20px;
+}           
+div.b12{
+         display: inline-block;
+         border: 1px solid black;
+         width: 25%;
+         height: 63px;
+         text-align: left;
+         font-size:20px; 
+}
+div.bloque6{
+         display: flex;
+         border: 1px solid black;
+         width: 70%;
+         height:90px;
+}
+.ab1{
+         width: 49%;
+         height:25px;
+         font-size:20px; 
+}
+.ab2{
+         width: 32%;
+         height:25px;
+         font-size:20px; 
+}
+div.b13{
+         display: inline-block;
+         border: 1px solid black;
+         width: 46%;
+         height: 90px;
+         text-align: left;
+         font-size:18px;
+}
+div.b14{
+         display: inline-block;
+         border: 1px solid black;
+         width: 60%;
+         height: 90px;
+         text-align: left;
+         font-size:18px;
+}
+div.bloque7{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+.B6{
+         width: 90%;
+         height:30px;
+         font-size:20px;
+}
+div.b15{
+         display: inline-block;
+         border: 1px solid black;
+         width: 40%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.b16{
+         display: inline-block;
+         border: 1px solid black;
+         width: 18%;
+         height: 65px;
+         text-align: center;
+         font-size:20px;
+}
+div.b17{
+         display: inline-block;
+         border: 1px solid black;
+         width: 40%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.b18{
+         display: inline-block;
+         border: 1px solid black;
+         width: 30%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.b19{
+         display: inline-block;
+         border: 1px solid black;
+         width: 30%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque8{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+.B7{
+         width: 90%;
+         height:30px;
+         font-size:20px;
+}
+div.b20{
+         display: inline-block;
+         border: 1px solid black;
+         width: 21%;
+         height: 65px;
+         text-align: center;
+         font-size:20px;
+}
+div.b21{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.b22{
+         display: inline-block;
+         border: 1px solid black;
+         width: 38%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque9{
+         display: flex;
+         border: 1px solid black;
+         margin-left:10.2%; 
+         width:80%;
+         height:65px;
+}
+.CA1{
+         display: flex; 
+         width: 90%;
+         height:30px;
+         font-size:20px;
+}
+.cb1{
+         display: flex;  
+         float: left;
+         border: 1px solid black;  
+         width: 10%;
+         height:65px;
+         font-size:25px;
+}
+.cb2{
+         display: flex;
+         float: left;   
+         border: 1px solid black;   
+         width: 10%;
+         height:200px;
+         font-size:25px;
+}
+div.c1{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c2{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c3{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c4{
+         display: inline-block;
+         border: 1px solid black;
+         width: 20%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque10{
+         display: flex;
+         border: 1px solid black;
+         margin-left: 10.2%;
+         width: 80%;
+         height:65px;
+}
+div.c5{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c6{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c7{
+         display: inline-block;
+         border: 1px solid black;
+         width: 20%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque11{
+         display: flex;
+         border: 1px solid black;
+         margin-left:10.2%; 
+         width: 80%;
+         height:65px;
+}
+div.c8{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c9{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c10{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c11{
+         display: inline-block;
+         border: 1px solid black;
+         width: 20%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c12{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque12{
+         display: flex;
+         border: 1px solid black;
+         margin-left:10.2%; 
+         width: 80%;
+         height:65px;
+}
+div.c12{
+         display: inline-block;
+         border: 1px solid black;
+         width: 58%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c13{
+         display: inline-block;
+         border: 1px solid black;
+         width: 42%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque13{
+         display: flex;
+         border: 1px solid black;
+         margin-left:10.2%; 
+         width: 80%;
+         height:65px;
+}
+div.c14{
+         display: inline-block;
+         border: 1px solid black;
+         width:85%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.c15{
+         display: inline-block;
+         border: 1px solid black;
+         width: 20%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque14{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+div.d1{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+.d1{
+         width: 95%;
+         height:30px;
+         font-size:20px;
+}
+.d2{
+         width: 90%;
+         height:30px;
+         font-size:20px;
+}
+div.d2{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.d3{
+         display: inline-block;
+         border: 1px solid black;
+         width: 30%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque15{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+div.d4{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.d5{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque16{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+div.d6{
+         display: inline-block;
+         border: 1px solid black;
+         width: 100%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque17{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+div.d7{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.d8{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.d9{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.d10{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque18{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+div.d11{
+         display: inline-block;
+         border: 1px solid black;
+         width: 100%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.T3 h4{
+         border: 2px solid black;
+         border-radius:4px;
+         width: 90%;
+         height: 35px;
+         margin: 3px;
+         font-size: 20px;
+         background:#3393FF;
+}
+div.T4 h2{
+         margin: 3px;
+         border: 2px solid black;
+         border-radius:4px;
+         width: 90%;
+         height: 40px;
+         text-align: center;
+         font-size: 20px;
+         background: #3393FF;
+}
+div.bloque191{
+         border: 2px solid black;
+         border-radius:1px;
+         width: 90%;
+         height: 150px;
+         font-size: 16px;
+}
+div.e1{
+          display: inline-block;
+          margin-left:3%; 
+}
+div.bloque19{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+div.f1{
+         display: inline-block;
+         border: 1px solid black;
+         width: 90%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+.f1{
+         width: 90%;
+         height:30px;
+         font-size:20px;
+}
+.fa1{
+         width: 20%;
+         height:30px;
+         font-size:20px;
+
+}
+div.f2{
+         display: inline-block;
+         border: 1px solid black;
+         width: 90%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.f3{
+         display: inline-block;
+         border: 1px solid black;
+         width: 90%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque20{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+div.f4{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.f5{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.f6{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.f7{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque21{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}
+div.f8{
+         display: inline-block;
+         border: 1px solid black;
+         width: 61%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.f9{
+         display: inline-block;
+         border: 1px solid black;
+         width: 50%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.f10{
+         display: inline-block;
+         border: 1px solid black;
+         width: 25%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque22{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}         
+div.f11{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.f12{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.f13{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.f14{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.h0 h2{
+         margin: 1px;
+         border: 2px solid black;
+         border-radius:4px;
+         width: 99.3%;
+         height: 32px;
+         text-align: center;
+         background: #3393FF;
+         font-size: 20px;
+}
+div.bloque23{
+         display: flex;
+         margin-left:51px; 
+         border: 1px solid black;
+         width: 87%;
+         height:65px;
+} 
+div.ga1{
+         display: flex;  
+         float: left;
+         border: 1px solid black;
+         width: 3%;
+         height:65px;
+         font-size:25px;
+}        
+div.g1{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.g2{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+         
+}
+div.g3{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.g4{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque24{
+         display: flex;
+         margin-left:51px;
+         border: 1px solid black;
+         width: 87%;
+         height:65px;
+}         
+div.g5{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.g6{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+         
+}
+div.g7{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.g8{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.T2 h2{
+         margin: 3px;
+         border: 2px solid black;
+         border-radius:4px;
+         width: 90%;
+         height: 32px;
+         text-align: center;
+         background: #3393FF;
+}
+div.bloque25{
+         
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+} 
+.ib1{
+         width:90%;
+         height:30px;
+         font-size:20px;
+}               
+div.i1{
+        display: inline-block;
+         border: 1px solid black;
+         width: 58%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.i2{
+         display: inline-block;
+         border: 1px solid black;
+         width: 43%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque26{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}         
+div.i3{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.i4{
+         display: inline-block;
+         border: 1px solid black;
+         width: 55%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque27{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:65px;
+}         
+div.i5{
+         display: inline-block;
+         border: 1px solid black;
+         width: 100%;
+         height: 65px;
+         text-align: left;
+         font-size:20px;
+}
+div.j0{ 
+    
+         margin: 1px;
+         border: 2px solid black;
+         border-radius:6px; 
+         width: 100%;
+         height: 95px;
+         background: #A4A4A4;
+         display: flex;
+} 
+div.bloque28{
+         display: flex;
+         border: 2px solid black;
+         border-radius:6px;
+         width: 90%;
+         height:145px;
+}         
+header.j1{  
+         display:inline-block;
+         text-align: center;
+         border: 1px solid black;
+         border-radius:6px;
+         width: 28.5%;
+         height: 143px;
+         background: #3393FF;
+}
+header.j2 {
+         display:inline-block;
+         text-align: center;
+         border: 1px solid black;
+         border-radius:6px;
+         width: 36%;
+         height: 143px;
+         background: #3393FF;
+}
+.j1{
+         width: 80%;
+         height:60px;
+         font-size:20px;
+}
+.j2{
+         width: 80%;
+         height:22px;
+         font-size:20px;
+}
+div.j3{
+         display:inline-block;
+         border: 1px solid black;
+         border-radius:6px; 
+         width: 35%;
+         height:143px;
+         background: #3393FF;
+         font-size:20px;
+}
+div.bloque29{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:60px;
+}
+div.I1{
+         display: inline-block;
+         border: 1px solid black;
+         width: 100%;
+         height: 60px;
+         text-align: left;
+         font-size:20px;
+}
+div.I2{
+         display: inline-block;
+         border: 1px solid black;
+         width: 100%;
+         height: 60px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque30{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:60px;
+}
+div.I2{
+         display: inline-block;
+         border: 1px solid black;
+         width: 60%;
+         height: 60px;
+         text-align: left;
+         font-size:20px;
+}
+div.I3{
+         display: inline-block;
+         border: 1px solid black;
+         width: 30%;
+         height: 60px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque31{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:60px;
+}
+div.I4{
+         display: inline-block;
+         border: 1px solid black;
+         width: 100%;
+         height: 60px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque32{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:60px;
+}
+div.I5{
+         display: inline-block;
+         border: 1px solid black;
+         width: 70%;
+         height: 60px;
+         text-align: left;
+         font-size:20px;
+}
+div.I6{
+         display: inline-block;
+         border: 1px solid black;
+         width: 30%;
+         height: 60px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque33{
+         display: flex;
+         float:left; 
+         border: 1px solid black;
+         width: 40.8%;
+         height:122px;
+}
+div.I7{
+         display: inline-block;
+         border: 1px solid black;
+         width: 100%;
+         height: 122px;
+         text-align:left;
+         font-size:20px;
+}
+div.bloque34{
+         display: flex;
+         border: 1px solid black;
+         margin-left:41%; 
+         width: 49%;
+         height:60px;
+}
+.IA1{
+         width: 90%;
+         height:25px;
+         font-size:20px;
+}
+.IA3{
+         display: flex;
+         float: 
+         width: 90%;
+         height:25px;
+         font-size:20px;
+}
+div.I8{
+         display: inline-block;
+         border: 1px solid black;
+         width: 50%;
+         height: 60px;
+         text-align: left;
+         font-size:20px;
+}
+div.bloque35{
+         display: flex;
+         border: 1px solid black;
+         width: 90%;
+         height:150px;
+}
+.IA2{
+         width: 95%;
+         height:110px;
+         font-size:20px;
+}
+div.I9{
+         display: inline-block;
+         border: 1px solid black;
+         width: 50%;
+         height: 150px;
+         text-align: left;
+         font-size:20px;
+}
+.Boton{
+         border: 2px solid black;
+         border-radius:6px; 
+         width: 10%;
+         height:50px;
+         font-size:15px;
+
+}
